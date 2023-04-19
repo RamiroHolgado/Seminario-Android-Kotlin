@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ej19Operaciones"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="incrementar"
+        android:textSize="11dp"
+        android:layout_marginRight="5dp"
+        android:onClick="incrementar"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="decrementar"
+        android:textSize="11dp"
+        android:layout_marginRight="5dp"
+        android:onClick="decrementar"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancelar"
+        android:textSize="11dp"
+        android:onClick="cancelar"/>
+
+</LinearLayout>
